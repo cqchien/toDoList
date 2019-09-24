@@ -1,0 +1,36 @@
+.ToDoItem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #13c281;
+    border-radius: 10px;
+    display: flex;
+}
+
+.ToDoItem:last-child{
+    border-bottom: none;
+}
+
+.ToDoItem >p{
+    padding: 20px;
+    margin: 0px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.ToDoItem >img{
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.content:hover {
+    background-color: #13c281;
+    color: whitesmoke;
+    border-radius: 10px;
+}   
+
+.ToDoItem-completed >p{
+    text-decoration: line-through;
+    opacity: .3;
+}

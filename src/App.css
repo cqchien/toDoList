@@ -1,0 +1,64 @@
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120vh;
+  height: 44vh;
+  border: 3px solid #09d3ac;
+  border-radius: 10px;
+  box-shadow: 10px 10px  #62b49947; 
+  transform: translate(0, 50%);
+  overflow-y: auto;
+}
+
+.header{
+  display: flex;
+  padding-left: 12px;
+  padding-top: 12px;
+  border-bottom: 1px solid #13c281;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.container >h1{
+  position: absolute;
+  top: -70px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+  color:rgba(14, 194, 128, 0.51);
+
+}
+
+.header >input{
+  margin-left: 15px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #0d151342;
+  width: 100%;
+  outline: none;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
